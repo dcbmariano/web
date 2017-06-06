@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Boostrap JavaScript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+  <!-- INICIO -->
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Imagens -->
+    <div class="carousel-inner" role="listbox">
+      <div id="#imagem_0" class="item active">
+        <img src="img/1.png" alt="Imagem 1">
+        <div class="carousel-caption">
+          Esta é uma proteína!
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/2.png" alt="Imagem 2">
+        <div class="carousel-caption">
+          Esta é outra proteína!
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/3.png" alt="Imagem 3">
+        <div class="carousel-caption">
+          <h3>Proteína</h3>
+          <p>Mais uma proteína!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Controle -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Posterior</span>
+    </a>
+  </div>
+  <!-- FIM -->
+  <footer>
+   <!-- Scripts -->
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+ </footer>
+</body>
+</html>

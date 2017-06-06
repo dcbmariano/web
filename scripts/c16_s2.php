@@ -1,0 +1,1 @@
+<a href="#" data-toggle="modal" data-target="#help">Ajuda</a>
